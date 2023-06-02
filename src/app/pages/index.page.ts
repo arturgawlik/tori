@@ -1,7 +1,9 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   standalone: true,
+  imports: [NgOptimizedImage],
   selector: 'app-index',
   template: `
     <div class="overflow-hidden">
@@ -18,6 +20,14 @@ import { Component } from '@angular/core';
         </p>
       </div>
     </div>
+
+    <a
+      class="absolute top-0 right-0 m-5"
+      href="https://www.linkedin.com/in/wiktoria-joniak"
+      rel="noopener noreferrer"
+    >
+      <img ngSrc="linkedin.svg" alt="linkedin logo" width="30" height="30" />
+    </a>
   `,
 })
 export default class HomeComponent {}
