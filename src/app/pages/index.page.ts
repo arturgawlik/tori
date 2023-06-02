@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
     </div>
 
     <a
-      class="absolute top-0 right-0 m-5"
+      class="animate-show-from-hidden absolute top-0 right-0 m-5"
       href="https://www.linkedin.com/in/wiktoria-joniak"
       rel="noopener noreferrer"
     >
