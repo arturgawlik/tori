@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <div class="overflow-hidden">
       <div
-        class="flex flex-col shrink h-screen items-center justify-center m-x-10 w-[600px] mx-auto px-10"
+        class="flex flex-col shrink h-screen items-center justify-center m-x-10 w-full max-w-[1000px] mx-auto px-10"
       >
         <p class="animate-show-from-left text-8xl self-start">Hi</p>
         <div class="border-2 border-black rounded-xl w-full"></div>
